@@ -1,0 +1,16 @@
+language: c
+
+os:
+  - linux
+  - osx
+
+script:
+  make test
+
+notifications:
+  email: false
+
+# Local Variables:
+# indent-tabs-mode: nil
+# coding: utf-8
+# End:
