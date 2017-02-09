@@ -1,6 +1,6 @@
 # ~/.tmuxinator/python-examples-101.yml
 name: python-examples-101
-root: <%= ENV["PROJECTS"] %>/haskell/python-examples-101
+root: <%= ENV["PROJECTS"] %>/python/python-examples-101
 tmux_options: -2
 # Optional tmux socket
 # socket_name: foo
