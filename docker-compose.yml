@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    restart: always
+    image: python:3.5.2
+    volumes:
+    - ./:/app/
